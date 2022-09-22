@@ -10,3 +10,112 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.fondo{
+    background: rgb(5,5,5);
+    background: linear-gradient(90deg, rgba(5,5,5,1) 45%, rgba(253,29,29,1) 65%, rgba(241,6,6,1) 100%);
+    width: 100%;
+    height: 617px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondoJuego {
+    background: rgb(255,0,0);
+    background: linear-gradient(76deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 100%);
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerJuego {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #f80000;
+}
+
+.pantallaJuego{
+    background-image: url(https://fondosmil.com/fondo/85032.jpg);
+    width: 550px;
+    height: 350px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pantallaJuego p {
+    color: rgb(187, 255, 0);
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+.pantallaJuego button{
+    font-size: 2rem;
+    color: rgb(187, 255, 0);
+    background-color: transparent;
+    border: 2px solid  rgb(187, 255, 0);
+}
+
+.botonesJuego {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+
+.botonesJuego button {
+    font-size: 2rem;
+    margin: 10px;
+    color: rgb(187, 255, 0);
+    background-color: transparent;
+    border: 2px solid  rgb(187, 255, 0);
+    transition: 0.5s;
+}
+
+.botonesJuego button:hover {
+    background-color: #f80000;
+    font-size: 3rem;
+}
+
+.containerJugadores {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 5px solid #f80000;
+}
+
+.formInput {
+    display: flex;
+    justify-content: center;
+
+}
+
+.panelJugadores {
+    font-size: 2rem;
+    color: rgb(187, 255, 0);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.panelJugadores li{
+    margin-left: 10px;
+    list-style: none;
+}
+
+.containerJugadores h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(187, 255, 0);
+}
